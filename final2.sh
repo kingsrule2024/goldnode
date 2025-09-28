@@ -34,7 +34,7 @@ screen -wipe >/dev/null || true
 
 # Kill any miner processes outside screen
 echo "Killing stray miner processes…"
-pkill miner || true
+pkill gpuminer || true
 
 # ==============================
 # Start gpuminer in screen
