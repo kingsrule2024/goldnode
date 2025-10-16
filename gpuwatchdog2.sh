@@ -40,7 +40,7 @@ pkill miner || true
 # Start gpuminer in screen
 # ==============================
 SESSION_NAME="GPU_restarted"
-MINER_CMD="./miner --pubkey=3jdRadLZyw1FPCMdzM4KKcDXgk3EWeg4ZX9mfD8ZeGPJ8TAwpLHxrwTD97MmQ64KWHAQ4y41Au7T4881N1JzFG3SGRxj3SXgHRFLbHxdKHCYLWW31BaQuzCFecMciyhkMUPB --name=$(hostname) --label=Rental --threads-per-card=2"
+MINER_CMD="./miner --pubkey=3jdRadLZyw1FPCMdzM4KKcDXgk3EWeg4ZX9mfD8ZeGPJ8TAwpLHxrwTD97MmQ64KWHAQ4y41Au7T4881N1JzFG3SGRxj3SXgHRFLbHxdKHCYLWW31BaQuzCFecMciyhkMUPB --name=$(hostname) --label=Rental --threads-per-card=1"
 
 echo "Starting gpuminer in screen session: $SESSION_NAME"
 screen -dmS "$SESSION_NAME" bash -lc "$MINER_CMD"
