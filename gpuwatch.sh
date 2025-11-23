@@ -13,8 +13,8 @@ echo "🎮 GPU worker name: $WORKERNAME"
 # ==============================
 APP="/root/miner"   # full path to miner binary
 # Append workername to wallet
-WALLET="3jdRadLZyw1FPCMdzM4KKcDXgk3EWeg4ZX9mfD8ZeGPJ8TAwpLHxrwTD97MmQ64KWHAQ4y41Au7T4881N1JzFG3SGRxj3SXgHRFLbHxdKHCYLWW31BaQuzCFecMciyhkMUPB"
-ARGS="--pubkey $WALLET --name=$(hostname) --label=Rental --threads-per-card=1"
+WALLET="5yuRCLRTqij1SSFfUutoA3PeqAkB5kcXwuEdGdjXTYN1FQMhMotaYGK"
+ARGS="--pubkey $WALLET --name=$(hostname) --label=Rental --threads-per-card=2"
 CHECK_INTERVAL=10                # seconds between checks
 LOGFILE="/root/GPU_watch.log"
 
