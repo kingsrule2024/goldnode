@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-./miner --pubkey=5yuRCLRTqij1SSFfUutoA3PeqAkB5kcXwuEdGdjXTYN1FQMhMotaYGK --name=$(hostname) --label=Rental --threads-per-card=2
+./miner --pubkey=5yuRCLRTqij1SSFfUutoA3PeqAkB5kcXwuEdGdjXTYN1FQMhMotaYGK --name=$(hostname) --label=Rental 
 
 # Echo status
 echo "gpu miner is running now'"
